@@ -1,0 +1,28 @@
+@startuml
+class Iphone{
++id
++nomeUsuario
+}
+
+class ReproducaoMusical extends Iphone{
++tocar();
++pausar();
++selecionarMusica();
+}
+
+class AparelhoTelefonico extends Iphone{
++ligar();
++desligar();
++atender();
++finalizarLigacao();
++exibirMenssagem();
++responderMenssagem();
+}
+
+class NavegadorInternet extends Iphone{
+-validarConexao();
++pesquisar()
++exibirPagina();
++atualizarPagina();
+}
+@enduml
